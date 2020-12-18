@@ -14,7 +14,7 @@ namespace breadth_first_traversal
                 Random rnd = new Random();
                 int k = 0, t = 0, flag = 0;
                 //int n = int.Parse(Console.ReadLine());
-                int n = 20;
+                int n = 10;
                 Dictionary<int, int> numbersChek = new Dictionary<int, int>(n);
                 int[,] a = new int[n, n];
                 int[,] b = new int[n, n];
